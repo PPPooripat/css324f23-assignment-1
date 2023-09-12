@@ -37,7 +37,7 @@ def successors(s):
 
     t3 = 3 - c
 
-    if t3 > 0 and b > 0:
+    if t3 > 0 and a > 0:
         if b > t3:
             yield ((a, b - t3, 3), t3)
         else:
