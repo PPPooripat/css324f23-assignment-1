@@ -53,7 +53,7 @@ def h3(s):
     goal = (1, 2, 3, 4, 5, 6, 7, 8, 0)
     board, _, _ = s
     res = 0
-    for idx in range(0, 9)
+    for idx in range(0, 9):
         if board[idx]!= 0:
             goal_idx = goal.index(board[idx])
             r_diff = abs(idx//3-goal_idx//3)
