@@ -49,5 +49,3 @@ def successors(s):
         else:
             yield ((x, 0, c + b),b)
                    
-    
-    return []
