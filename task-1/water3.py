@@ -17,7 +17,7 @@ def successors(s):
 
     if t1 > 0 and c > 0:
         if c > t1:
-            yield ((8, y, c - t1, t1)
+            yield ((8, y, c - t1), t1)
         else:
             yield ((a + c, b, 0), c)
 
