@@ -6,4 +6,7 @@ def is_goal(s):
 
 def successors(s):
     a, b, c = s
+
+    t1 = 8 - x
+    
     return []
