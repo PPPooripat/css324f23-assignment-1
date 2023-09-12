@@ -23,7 +23,7 @@ def successors(s):
 
     t2 = 5 - y
 
-    if  t2 > 0 and x > 0:
+    if  t2 > 0 and a > 0:
         if a > t2:
             yield ((a - t2, 5, c), t2)
         else:
@@ -47,5 +47,5 @@ def successors(s):
         if b > t3:
             yield ((a, b - t3, 3), t3)
         else:
-            yield ((x, 0, c + b),b)
+            yield ((a, 0, c + b),b)
                    
